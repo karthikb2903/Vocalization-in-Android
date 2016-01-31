@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@+id/scrollView1" 
+android:layout_height="fill_parent" 
+android:layout_width="fill_parent"
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:fillViewport="true">
+      
+<LinearLayout 
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/voilet">
+    <TextView android:text="     Welcome To Vocalization App" 
+    android:id="@+id/textView1"  
+    android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:textSize="25dp"
+     android:textColor="@color/white"
+     android:layout_gravity="center"
+     android:typeface="serif"
+     android:textStyle="bold"
+     android:layout_marginLeft="25dp"
+     android:layout_marginTop="90dp"></TextView>
+    <ImageView android:src="@drawable/vocalization1" 
+    android:layout_height="wrap_content" 
+    android:id="@+id/clickImage" 
+    android:layout_width="wrap_content"
+    android:layout_marginLeft="70dp"
+    android:paddingTop="20dp"></ImageView>
+    <TextView android:text="Click On the image to start" 
+    android:id="@+id/scrollText"
+     android:layout_width="wrap_content" 
+     android:layout_height="wrap_content"
+     android:paddingTop="140dp"
+     android:textColor="@color/lightBlue"
+     android:typeface="serif"></TextView>
+    
+
+</LinearLayout>
+  </ScrollView>

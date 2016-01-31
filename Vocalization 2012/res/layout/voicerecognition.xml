@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@+id/scrollView1" 
+android:layout_height="fill_parent" 
+android:layout_width="fill_parent"
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:fillViewport="true">
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="vertical"
+  android:background="@drawable/plainblue">
+  <TableLayout android:layout_width="fill_parent"
+      android:layout_height="60dp"
+      android:background="@drawable/heading2">
+      <TableRow android:layout_width="wrap_content"
+      android:layout_height="wrap_content">
+       <TextView android:text="      " 
+       android:layout_height="wrap_content" 
+       android:layout_width="wrap_content"/>
+      </TableRow>
+  <TableRow android:layout_width="wrap_content"
+      android:layout_height="wrap_content">
+  <TextView android:text="Voice To Text"
+     android:id="@+id/textView1" 
+     android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:gravity="center"
+      android:textColor="@color/fireBrick"
+      
+        android:textSize="25sp" 
+        android:typeface="serif" 
+        android:paddingLeft="70dp"
+     ></TextView>
+     </TableRow>
+     </TableLayout>
+ <TableLayout android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+<TableRow android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+<TextView android:text="                                                                                                                           " 
+android:textSize="1sp" 
+android:id="@+id/textView4" 
+android:layout_width="360dp"
+ android:layout_height="wrap_content"></TextView>
+    
+    </TableRow>
+    </TableLayout>  
+     <TextView android:id="@+id/voicetextTV"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="4dip"
+        android:text="Click the below image and start speaking" 
+        android:textSize="16dp"
+        android:typeface="serif"
+        android:textColor="@color/white"
+        android:paddingTop="6dp"/>
+ 
+    <Button android:id="@+id/speakButton"
+        android:layout_width="130dp"
+        android:onClick="speakButtonClicked"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:background="@drawable/apeak1" />
+ 
+    <ListView android:id="@+id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+<!-- <Spinner android:id="@+id/spinnerLang" -->
+<!-- android:layout_width="wrap_content" -->
+<!-- android:layout_height="wrap_content"></Spinner>-->
+ 
+ <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="4dip"
+        android:id="@+id/language" />
+ 
+    
+</LinearLayout>
+</ScrollView>

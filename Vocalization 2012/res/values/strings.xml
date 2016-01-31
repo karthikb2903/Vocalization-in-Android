@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, VoiceRecognition!</string>
+    <string name="app_name">Vocalization</string>
+    <color name="black">#000000</color>
+    <color name="green">#4E8975</color>
+    <color name="orange">#FF8040</color>
+    <color name="chocolate">#C85A17</color>
+    <color name="deeppink">#C12267</color>
+    <color name="MediumOrchid">#B048B5</color>
+    <color name="plum">#B93B8F</color>
+    <color name="green1">#00FF00</color>
+    <color name="white">#FFFFFF</color>
+    <color name="blush">#FDEEF4</color>
+    <color name="darkolive">#667C26</color>
+    <color name="fireBrick">#800517</color>
+    <color name="darkBlue">#0000A0</color>
+    <color name="lightBlue">#e6fafa</color>
+    <color name="gray">#736F6E</color>
+    <color name="light">#DDEFFA</color>
+</resources>
